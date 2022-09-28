@@ -45,7 +45,7 @@ int main(){
         myList.push_back(aux);
     }
     printf("--\n");
-    eraseMidleNode();
+    deleteMidelNod();
     for(auto x: myList){
         cout<<x<<" ";
     }
